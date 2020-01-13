@@ -1,6 +1,6 @@
 # Monolingual-Word-Aligner
 
-This is a clone and update of the Monolingual Word Aligner made by [Rameshjesswani](https://github.com/rameshjesswani/Semantic-Textual-Similarity) The algorithm implemented is from Sultan et. al(2014) [Back to Basics for Monolingual Alignment](http://www.aclweb.org/anthology/Q14-1018)
+This is a clone and update of the Monolingual Word Aligner that [Rameshjesswani](https://github.com/rameshjesswani/Semantic-Textual-Similarity) converted to use NLTK. The algorithm implemented is from Sultan et. al(2014) [Back to Basics for Monolingual Alignment](http://www.aclweb.org/anthology/Q14-1018)
 
 
 ## Modifications
