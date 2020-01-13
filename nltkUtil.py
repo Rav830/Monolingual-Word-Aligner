@@ -13,6 +13,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from config import *
 
+import requests
+
 class Text_processing:
 
 
@@ -21,7 +23,9 @@ class Text_processing:
 		# user need to download Stanford Parser, NER and POS tagger from stanford website
 		#parserJar = "/home/rav/Development/Semantic-Textual-Similarity/monolingualWordAligner/stanfordModels/stanford-parser-full-2017-06-09/stanford-parser.jar"
 		#parserModel = "/home/rav/Development/Semantic-Textual-Similarity/monolingualWordAligner/stanfordModels/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models.jar"
+		
 		self.constituent_parse_tree = CoreNLPParser(url='http://localhost:9000')
+
 		# StanfordParser(path_to_jar=parserJar, path_to_models_jar=parserModel)
 		# user need to set as environment variable
 		self.stanford_dependency =  CoreNLPDependencyParser(url='http://localhost:9000')
@@ -46,6 +50,14 @@ class Text_processing:
 		self.CharacterOffsetEnd = 0 
 		self.CharacterOffsetBegin = 0
 		
+		
+		#this try block is just to check and make sure the server is up and running by 
+		#parsing a random sentence 
+		try:
+			self.parser("A random sentence")
+		except requests.ConnectionError as err:
+			print("The server doesn't seem to be running, make sure you start it")
+			raise SystemExit
 
 	'''
 	Input: sentence
