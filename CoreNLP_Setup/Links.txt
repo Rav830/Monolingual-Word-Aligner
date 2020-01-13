@@ -1,0 +1,29 @@
+# ner
+https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip
+
+#pos tagger
+https://nlp.stanford.edu/software/stanford-postagger-2018-10-16.zip
+
+#parser
+https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip
+
+#english models?
+http://nlp.stanford.edu/software/stanford-english-corenlp-2018-10-05-models.jar
+
+#Full
+http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip
+
+#given links
+#ner
+http://nlp.stanford.edu/software/stanford-ner-2017-06-09.zip
+#pos tagger
+http://nlp.stanford.edu/software/stanford-postagger-2017-06-09.zip
+
+#parser ...
+http://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip 
+#command
+wget http://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip http://nlp.stanford.edu/software/stanford-postagger-2017-06-09.zip http://nlp.stanford.edu/software/stanford-ner-2017-06-09.zip
+unzip stanford-parser-full-2017-06-09.zip && unzip stanford-postagger-2017-06-09.zip && unzip stanford-ner-2017-06-09.zip
+
+#full set?
+wget http://nlp.stanford.edu/software/stanford-corenlp-full-2017-06-09.zip && unzip stanford-corenlp-full-2017-06-09.zip
