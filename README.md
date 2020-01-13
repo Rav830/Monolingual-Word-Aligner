@@ -41,3 +41,8 @@ java -mx4g -cp "./CoreNLP_Setup/stanford-corenlp-full-2017-06-09/*" edu.stanford
 ```
 
 Then you can run `example_align.py` to test to see if it is working.
+
+## Note:
+
+I am assuming that the server is being hosted on localhost port 9000. If you need to change this, nltkUtil.py should be modified to pull it off.
+
