@@ -1,3 +1,5 @@
+This is just me recording some links so I don't forget where i got things from
+
 # ner
 https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip
 

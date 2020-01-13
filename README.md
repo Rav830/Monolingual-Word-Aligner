@@ -16,7 +16,8 @@ Required
 
 * NLTK 3.4.5
 * requests 2.22
-* Stanford Corenlp-full-2017-06-09
+* Stanford CoreNLP full 2017-06-09
+  * CoreNLP also depends on Java 8
 
 Optional
 
@@ -25,4 +26,18 @@ Optional
 ## Installation
 * Set up a virtual environment if you want.
 * Download the python packages (NLTK and Requests)
+* Make sure Java 8 is installed and being used
+* run the `setupCoreNLP.sh` file to download and unzip the the stanford corenlp server
+  * Note: it uses wget and unzip so make sure those programs are available
 
+
+
+## Usage
+
+Start the Stanford NLP server
+
+```bash
+java -mx4g -cp "./CoreNLP_Setup/stanford-corenlp-full-2017-06-09/*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,depparse -port 9000 -timeout 15000
+```
+
+Then you can run `example_align.py` to test to see if it is working.
