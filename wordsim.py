@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from config import *
+from alignerConfig import *
 from Resources import *
 
 class WordSimilarity:

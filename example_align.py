@@ -1,8 +1,8 @@
 from wordAligner import *
 import sys
 
-sentence1 = "Four people died in accident. Well, United Arab Emirates is one of powerful country"
-sentence2 = "Seven men are dead due to collisions."
+sentence1 = "I ate an apple"
+sentence2 = "I ate an pear"
 
 print("sentence1 = ", sentence1)
 print("sentence2 = ", sentence2)

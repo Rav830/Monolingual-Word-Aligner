@@ -1,4 +1,4 @@
-from config import *
+from alignerConfig import *
 
 class Util:
 

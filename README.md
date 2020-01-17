@@ -46,4 +46,8 @@ Then you can run `example_align.py` to test to see if it is working.
 
 I am assuming that the server is being hosted on localhost port 9000. If you need to change this, nltkUtil.py should be modified to pull it off.
 
-Also for some reason the paraphrase database that is used has some unique pairs that are odd, such as \x16 paired with \x1d and \x1e is paired with 'i'. These are ignored and just printed out that we "Failed on" because the program couldn't parse those symbols
+Also for some reason the paraphrase database that is used has some unique pairs that are odd, such as \x16 paired with \x1d and \x1e is paired with 'i'. These are ignored and just printed out that we "Failed on" because the program couldn't parse those symbols\
+
+## Potential Issues 
+
+The tokenization uses both NLTK's and Stanford's Tokenizer. This can cause token mismatches with one token example being "<text\>". NLTK will split that into "<" "text" ">" but Stanford will keep it together.

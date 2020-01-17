@@ -1,7 +1,7 @@
 import nltk 
 from nltkUtil import *
 from util import *
-from config import *
+from alignerConfig import *
 from wordsim import *
 #from spacyUtil import *
 

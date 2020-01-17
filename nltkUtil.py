@@ -11,7 +11,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
-from config import *
+from alignerConfig import *
 
 import requests
 
