@@ -11,7 +11,7 @@ print("sentence2 = ", sentence2)
 
 if __name__ == '__main__':
 
-	flag = sys.argv[1]
+    flag = sys.argv[1]
 
-	processing = Aligner(flag)
-	processing.align_sentences(sentence1,sentence2)
+    processing = Aligner(flag)
+    processing.align_sentences(sentence1,sentence2)
