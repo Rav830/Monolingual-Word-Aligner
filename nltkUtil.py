@@ -344,7 +344,7 @@ class Text_processing:
         dependency_tree = []
         dependency_parser = self.stanford_dependency.raw_parse(sentence)
         #token = word_tokenize(sentence)
-        token = self.constituent_parse_tree.tokenize(sentence)
+        token = list(self.constituent_parse_tree.tokenize(sentence))
         parsetree = list(self.stanford_dependency.raw_parse(sentence))[0]
         # Find root(head) of the sentence 
         for k in parsetree.nodes.values():
@@ -393,7 +393,7 @@ class Text_processing:
         words_in_each_sentence = []
         words_list = [] 
         #tokenized_words = word_tokenize(sentence)
-        tokenized_words = self.constituent_parse_tree.tokenize(sentence)
+        tokenized_words = list(self.constituent_parse_tree.tokenize(sentence))
         posTag = self.pos_tag.tag(tokenized_words)
         ner = self.ner.tag(tokenized_words)
         
