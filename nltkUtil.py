@@ -31,17 +31,17 @@ class Text_processing:
         
         
         
-        self.constituent_parse_tree = CoreNLPParser(url='http://localhost:9000')
+        #self.constituent_parse_tree = CoreNLPParser(url='http://localhost:9000')
 
         # StanfordParser(path_to_jar=parserJar, path_to_models_jar=parserModel)
         # user need to set as environment variable
-        self.stanford_dependency =  CoreNLPDependencyParser(url='http://localhost:9000')
+        #self.stanford_dependency =  CoreNLPDependencyParser(url='http://localhost:9000')
         #StanfordDependencyParser(path_to_jar=parserJar, path_to_models_jar=parserModel)
         # #user need to set as environment variable
         self.lemma = WordNetLemmatizer()
         
-        self.ner = CoreNLPParser(url='http://localhost:9000', tagtype='ner')
-        self.pos_tag = CoreNLPParser(url='http://localhost:9000', tagtype='pos')
+        ##self.ner = CoreNLPParser(url='http://localhost:9000', tagtype='ner')
+        #self.pos_tag = CoreNLPParser(url='http://localhost:9000', tagtype='pos')
         
         
         #self.home = '/home/ramesh'
