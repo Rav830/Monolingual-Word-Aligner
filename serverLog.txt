@@ -18,11 +18,11 @@
 [main] INFO edu.stanford.nlp.time.JollyDayHolidays - Initializing JollyDayHoliday for SUTime from classpath edu/stanford/nlp/models/sutime/jollyday/Holidays_sutime.xml as sutime.binder.1.
 [main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator depparse
 [main] INFO edu.stanford.nlp.parser.nndep.DependencyParser - Loading depparse model file: edu/stanford/nlp/models/parser/nndep/english_UD.gz ... 
-[main] INFO edu.stanford.nlp.parser.nndep.Classifier - PreComputed 99996, Elapsed Time: 10.919 (s)
-[main] INFO edu.stanford.nlp.parser.nndep.DependencyParser - Initializing dependency parser ... done [12.3 sec].
+[main] INFO edu.stanford.nlp.parser.nndep.Classifier - PreComputed 99996, Elapsed Time: 10.735 (s)
+[main] INFO edu.stanford.nlp.parser.nndep.DependencyParser - Initializing dependency parser ... done [12.2 sec].
 [main] INFO CoreNLP - Starting server...
 [main] INFO CoreNLP - StanfordCoreNLPServer listening at /0:0:0:0:0:0:0:0:9000
-[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:43546] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
 A random sentence
 [pool-1-thread-1] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
 [pool-1-thread-1] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
@@ -30,11 +30,1709 @@ A random sentence
 [pool-1-thread-1] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
 [pool-1-thread-1] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ner
 [pool-1-thread-1] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
-[pool-1-thread-1] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [0.2 sec].
+[pool-1-thread-1] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
 [pool-1-thread-1] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator depparse
-[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:43546] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
-I ate an apple.
-[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:43546] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
-I drove a car.
-[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:43546] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
-I ate an pear
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well they, they told her to leave but they never, she just didn't listen.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She just stayed in the fire.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 8.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because they could have done more to get her out before like they burned the books.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And let her burn with it.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like-
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I feel like they probably done that before to other people as well.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So if that probably happened because they noticed other people do that.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they think [inaudible 000218] firefighters.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they probably know that those people aren't right.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they shouldn't be in the society.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they don't want to do anything to help them out.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they just want them to make their own decisions.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And take their own fate.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah I affirm with St 6 by saying and I don't say, like, I don't think they, like, liked her because and they, like, uh, like, she was an outcast [because] how she has a book and she has, like, many of them.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she wants to be, like, around them and have them.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then they, like, really, they don't care about her in the society.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they kind of want her, I don't know if they want her to stay in there but I don't think they care if she burned.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just don't think she belongs in the society.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they're not going to do anything to keep her in the society even though she doesn't belong there.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge St 6 and St 10's point.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I just think they could have done more to get her out.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, just because if somebody commits a crime, like right now that doesn't mean they automatically are gonna die and nobody is gonna care.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she could've, they could have brought her to court or done something more reasonable than just burning her alive.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even in their society I understand that she had books but just because you commit a crime doesn't mean that you should automatically be killed.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like I feel like they should have cared more since they are of, like, they're in law enforcement.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I question why, like, if police officers can just take people out and, like, remove them from situations.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why didn't the fireman just do that?
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have just pulled her out.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh I'd like to, I'd like to uh dispute your claim by saying, they did attempt to pull her out on page 36 it says, "I'm counting to ten."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which means, they gave her a count down.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly, "I want to stay here."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then, she said, "You can stop counting."
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which is basically, like, she's getting, she's getting smart with him.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then somewhere on this page it says uh, "you're not leaving her there."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On uh earlier on the page it says "'You're not leaving her here.'
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He protested.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'She won't come.'
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'Force her then.'"
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did make multiple attempts at getting her out of the house.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I kind of question [inaudible 000434] I kind of question that because I think they could have done a little bit more.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, they could have been a little more gentle.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Especially if they think, especially if in that society they think that there's something wrong with people who have books like.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think they could have been more gentle in the way that they, in the way that they handled the situation instead of saying, "Okay we're gonna count to ten and then we're gonna burn down your house or force you out," or whatever.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have handled it in a way where they weren't as direct and um they just, I can't find the words.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just, like.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They, sort of, um.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:59756] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I can't find the words.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A random sentence
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well they, they told her to leave but they never, she just didn't listen.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She just stayed in the fire.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 8.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because they could have done more to get her out before like they burned the books.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And let her burn with it.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like-
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I feel like they probably done that before to other people as well.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So if that probably happened because they noticed other people do that.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they think [inaudible 000218] firefighters.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they probably know that those people aren't right.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they shouldn't be in the society.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they don't want to do anything to help them out.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they just want them to make their own decisions.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And take their own fate.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah I affirm with St 6 by saying and I don't say, like, I don't think they, like, liked her because and they, like, uh, like, she was an outcast [because] how she has a book and she has, like, many of them.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she wants to be, like, around them and have them.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then they, like, really, they don't care about her in the society.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they kind of want her, I don't know if they want her to stay in there but I don't think they care if she burned.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just don't think she belongs in the society.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they're not going to do anything to keep her in the society even though she doesn't belong there.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge St 6 and St 10's point.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I just think they could have done more to get her out.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, just because if somebody commits a crime, like right now that doesn't mean they automatically are gonna die and nobody is gonna care.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she could've, they could have brought her to court or done something more reasonable than just burning her alive.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even in their society I understand that she had books but just because you commit a crime doesn't mean that you should automatically be killed.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like I feel like they should have cared more since they are of, like, they're in law enforcement.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I question why, like, if police officers can just take people out and, like, remove them from situations.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why didn't the fireman just do that?
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have just pulled her out.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh I'd like to, I'd like to uh dispute your claim by saying, they did attempt to pull her out on page 36 it says, "I'm counting to ten."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which means, they gave her a count down.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly, "I want to stay here."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then, she said, "You can stop counting."
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which is basically, like, she's getting, she's getting smart with him.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then somewhere on this page it says uh, "you're not leaving her there."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On uh earlier on the page it says "'You're not leaving her here.'
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He protested.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'She won't come.'
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'Force her then.'"
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did make multiple attempts at getting her out of the house.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I kind of question [inaudible 000434] I kind of question that because I think they could have done a little bit more.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, they could have been a little more gentle.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Especially if they think, especially if in that society they think that there's something wrong with people who have books like.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think they could have been more gentle in the way that they, in the way that they handled the situation instead of saying, "Okay we're gonna count to ten and then we're gonna burn down your house or force you out," or whatever.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have handled it in a way where they weren't as direct and um they just, I can't find the words.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just, like.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They, sort of, um.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I can't find the words.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Um I defend what St 7's saying because um even today not many rules have changed.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean, it's not like he described the entire, like, law like the rules in their society now so most likely not many things changed.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they could have took her out by force.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even today if you're a police officer you're supposed to save people even if they don't want it.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like you're supposed to save lives.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And you're, you're just supposed to save people even if it's by force and they don't want it.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You're not supposed to just say, "I'm gonna count to ten."
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's childish and, like, that's not, you're not being a hero in a sense.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because, I mean, to them fireman are kind of heroes like burning the books because um it even makes some people sad.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like reading certain things makes people sad so they're scared of them.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So burning the books technically firemen are heroes to the citizens.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like, they, it doesn't matter if they said they can count to ten they didn't try hard enough to save her.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You can't just say I'm gonna count to ten and you're gonna leave.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They obviously had to take her by force to save her life and they could have.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They had the authority to do that.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I respectfully disagree.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I'm saying, I don't think it's their jobs to be a hero.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's their jobs to burn the books.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I do think they did any-everything responsibly enough to uh get, get um explained to her what she was doing.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In page 35 it does make it clear that maybe although controversial he did do what was within his job description.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He said, "You know the law."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then throughout the entire page of 36 he's describing to her how um she should leave.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She was standing for herself.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She said if she doesn't.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She is basically saying if she doesn't have the book she doesn't want to live.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I believe it was the woman's choice.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And also I believe there was a struggle on page 37.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"He was too, he baby flicked his finger to spark the kerosene he was too late and [inaudible 000732] The woman on the porch reached out with contempt to [them all] and struck the kitchen match against the railing."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I believe the woman knew everything that was going on within herself.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she decided that she wanted to burn with the books.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh it says on page 36 that "Montag placed his hand on the woman's elbow and said, 'you can come with me.'
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she replied, 'No.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Thank you, anyways.'"
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then after that they started the count down.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:60140] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did try to peacefully and civilly get her out of the house before burning it.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A random sentence
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well they, they told her to leave but they never, she just didn't listen.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She just stayed in the fire.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 8.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because they could have done more to get her out before like they burned the books.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And let her burn with it.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like-
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I feel like they probably done that before to other people as well.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So if that probably happened because they noticed other people do that.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they think [inaudible 000218] firefighters.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they probably know that those people aren't right.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they shouldn't be in the society.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they don't want to do anything to help them out.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they just want them to make their own decisions.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And take their own fate.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah I affirm with St 6 by saying and I don't say, like, I don't think they, like, liked her because and they, like, uh, like, she was an outcast [because] how she has a book and she has, like, many of them.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she wants to be, like, around them and have them.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then they, like, really, they don't care about her in the society.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they kind of want her, I don't know if they want her to stay in there but I don't think they care if she burned.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just don't think she belongs in the society.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they're not going to do anything to keep her in the society even though she doesn't belong there.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge St 6 and St 10's point.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I just think they could have done more to get her out.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, just because if somebody commits a crime, like right now that doesn't mean they automatically are gonna die and nobody is gonna care.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she could've, they could have brought her to court or done something more reasonable than just burning her alive.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even in their society I understand that she had books but just because you commit a crime doesn't mean that you should automatically be killed.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like I feel like they should have cared more since they are of, like, they're in law enforcement.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I question why, like, if police officers can just take people out and, like, remove them from situations.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why didn't the fireman just do that?
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have just pulled her out.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh I'd like to, I'd like to uh dispute your claim by saying, they did attempt to pull her out on page 36 it says, "I'm counting to ten."
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which means, they gave her a count down.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly, "I want to stay here."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then, she said, "You can stop counting."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which is basically, like, she's getting, she's getting smart with him.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then somewhere on this page it says uh, "you're not leaving her there."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On uh earlier on the page it says "'You're not leaving her here.'
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He protested.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'She won't come.'
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'Force her then.'"
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did make multiple attempts at getting her out of the house.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I kind of question [inaudible 000434] I kind of question that because I think they could have done a little bit more.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, they could have been a little more gentle.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Especially if they think, especially if in that society they think that there's something wrong with people who have books like.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think they could have been more gentle in the way that they, in the way that they handled the situation instead of saying, "Okay we're gonna count to ten and then we're gonna burn down your house or force you out," or whatever.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have handled it in a way where they weren't as direct and um they just, I can't find the words.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just, like.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They, sort of, um.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I can't find the words.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Um I defend what St 7's saying because um even today not many rules have changed.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean, it's not like he described the entire, like, law like the rules in their society now so most likely not many things changed.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they could have took her out by force.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even today if you're a police officer you're supposed to save people even if they don't want it.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like you're supposed to save lives.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And you're, you're just supposed to save people even if it's by force and they don't want it.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You're not supposed to just say, "I'm gonna count to ten."
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's childish and, like, that's not, you're not being a hero in a sense.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because, I mean, to them fireman are kind of heroes like burning the books because um it even makes some people sad.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like reading certain things makes people sad so they're scared of them.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So burning the books technically firemen are heroes to the citizens.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like, they, it doesn't matter if they said they can count to ten they didn't try hard enough to save her.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You can't just say I'm gonna count to ten and you're gonna leave.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They obviously had to take her by force to save her life and they could have.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They had the authority to do that.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I respectfully disagree.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I'm saying, I don't think it's their jobs to be a hero.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's their jobs to burn the books.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I do think they did any-everything responsibly enough to uh get, get um explained to her what she was doing.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In page 35 it does make it clear that maybe although controversial he did do what was within his job description.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He said, "You know the law."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then throughout the entire page of 36 he's describing to her how um she should leave.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She was standing for herself.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She said if she doesn't.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She is basically saying if she doesn't have the book she doesn't want to live.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I believe it was the woman's choice.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And also I believe there was a struggle on page 37.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"He was too, he baby flicked his finger to spark the kerosene he was too late and [inaudible 000732] The woman on the porch reached out with contempt to [them all] and struck the kitchen match against the railing."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I believe the woman knew everything that was going on within herself.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she decided that she wanted to burn with the books.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh it says on page 36 that "Montag placed his hand on the woman's elbow and said, 'you can come with me.'
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she replied, 'No.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Thank you, anyways.'"
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then after that they started the count down.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:33662] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did try to peacefully and civilly get her out of the house before burning it.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:34604] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A random sentence
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A random sentence
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:35082] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36154] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A random sentence
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36154] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36154] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36154] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36154] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A random sentence
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 1's claim.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh you have to think of it as, well I'm not saying you have to think of it as like Montag situation.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if it was as Montag, I feel like he would have more of a uh hesitant approach to it because he actually reads books and he owns books.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he would agree more with the, more with the woman than the fireman.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I um I don't know if I would stay a fireman.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because even if society sees burning books as okay I don't know how mor-, I don't know how people morally feel about burning other people by accident?
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I don't really know what I would do.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they didn't necessarily think that, they didn't do that to her.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that herself by standing in the fire.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Still it was sort of their fault because they showed up and burned her books.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well they, they told her to leave but they never, she just didn't listen.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She just stayed in the fire.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 8.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because they could have done more to get her out before like they burned the books.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And let her burn with it.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like-
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I feel like they probably done that before to other people as well.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So if that probably happened because they noticed other people do that.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they think [inaudible 000218] firefighters.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they probably know that those people aren't right.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they shouldn't be in the society.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they don't want to do anything to help them out.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they just want them to make their own decisions.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And take their own fate.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah I affirm with St 6 by saying and I don't say, like, I don't think they, like, liked her because and they, like, uh, like, she was an outcast [because] how she has a book and she has, like, many of them.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she wants to be, like, around them and have them.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then they, like, really, they don't care about her in the society.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they kind of want her, I don't know if they want her to stay in there but I don't think they care if she burned.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just don't think she belongs in the society.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they're not going to do anything to keep her in the society even though she doesn't belong there.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge St 6 and St 10's point.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I just think they could have done more to get her out.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, just because if somebody commits a crime, like right now that doesn't mean they automatically are gonna die and nobody is gonna care.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she could've, they could have brought her to court or done something more reasonable than just burning her alive.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even in their society I understand that she had books but just because you commit a crime doesn't mean that you should automatically be killed.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like I feel like they should have cared more since they are of, like, they're in law enforcement.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I question why, like, if police officers can just take people out and, like, remove them from situations.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why didn't the fireman just do that?
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have just pulled her out.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh I'd like to, I'd like to uh dispute your claim by saying, they did attempt to pull her out on page 36 it says, "I'm counting to ten."
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which means, they gave her a count down.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly, "I want to stay here."
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then, she said, "You can stop counting."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which is basically, like, she's getting, she's getting smart with him.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then somewhere on this page it says uh, "you're not leaving her there."
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On uh earlier on the page it says "'You're not leaving her here.'
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He protested.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'She won't come.'
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'Force her then.'"
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did make multiple attempts at getting her out of the house.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I kind of question [inaudible 000434] I kind of question that because I think they could have done a little bit more.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, they could have been a little more gentle.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Especially if they think, especially if in that society they think that there's something wrong with people who have books like.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think they could have been more gentle in the way that they, in the way that they handled the situation instead of saying, "Okay we're gonna count to ten and then we're gonna burn down your house or force you out," or whatever.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have handled it in a way where they weren't as direct and um they just, I can't find the words.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just, like.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They, sort of, um.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I can't find the words.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Um I defend what St 7's saying because um even today not many rules have changed.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean, it's not like he described the entire, like, law like the rules in their society now so most likely not many things changed.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they could have took her out by force.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even today if you're a police officer you're supposed to save people even if they don't want it.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like you're supposed to save lives.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And you're, you're just supposed to save people even if it's by force and they don't want it.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You're not supposed to just say, "I'm gonna count to ten."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's childish and, like, that's not, you're not being a hero in a sense.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because, I mean, to them fireman are kind of heroes like burning the books because um it even makes some people sad.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like reading certain things makes people sad so they're scared of them.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So burning the books technically firemen are heroes to the citizens.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like, they, it doesn't matter if they said they can count to ten they didn't try hard enough to save her.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You can't just say I'm gonna count to ten and you're gonna leave.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They obviously had to take her by force to save her life and they could have.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They had the authority to do that.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I respectfully disagree.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I'm saying, I don't think it's their jobs to be a hero.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's their jobs to burn the books.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I do think they did any-everything responsibly enough to uh get, get um explained to her what she was doing.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In page 35 it does make it clear that maybe although controversial he did do what was within his job description.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He said, "You know the law."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then throughout the entire page of 36 he's describing to her how um she should leave.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the woman replied quietly.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She was standing for herself.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She said if she doesn't.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She is basically saying if she doesn't have the book she doesn't want to live.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I believe it was the woman's choice.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And also I believe there was a struggle on page 37.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"He was too, he baby flicked his finger to spark the kerosene he was too late and [inaudible 000732] The woman on the porch reached out with contempt to [them all] and struck the kitchen match against the railing."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I believe the woman knew everything that was going on within herself.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she decided that she wanted to burn with the books.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh it says on page 36 that "Montag placed his hand on the woman's elbow and said, 'you can come with me.'
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she replied, 'No.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Thank you, anyways.'"
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then after that they started the count down.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they did try to peacefully and civilly get her out of the house before burning it.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I'm not saying they didn't try I'm saying that they didn't try hard enough.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have used different, like, they could've done something different other than.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Or they could've, they could've waited like longer instead of going in and just taking all of her books and then saying, "We're gonna count to ten and you have to be out or else we're gonna burn your house down."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But that's the law.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah, I respectfully, I respectfully argue with that by saying if the lady was so, like, in love with the books and wanted to be with the books so bad.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then she was like to their, to the fireman she was, kind of, just wanted the books.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, they didn't have as much like as, like, respect for her because their society was to burn the books.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So if she loved the books so much then they didn't care.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't think they cared enough because she loved the books so much to keep her.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And if she wanted to, like, be with the books so bad and burn 'em, like, burn herself that much, then I don't think they, they cared enough for her.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 10.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because on page 36 it says, "The men walked clumsily to the door.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They glance back at Montag who stood near the woman."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And that kinda shows, like, that Montag was like the only one that actually cared enough about the woman.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because he understood, like, her connection with the books.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And the other fireman, they just didn't care enough.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They, they tried but they didn't care enough.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with um what like St 2 and St 10 are saying.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh on, also on page 36 Beatty mentions how, "these fanatics always try suicide; the pattern's familiar."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They're used to it.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean, that's kind of mean, but they're desensitized to it almost.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they've seen this kind of stuff happen before.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they did what they were supposed to.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But if she wants to die with the books there's not really anything they can do.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I counterclaim with what you're saying because on page 35 it says, "The woman knelt among the books, touching the drenched leather and cardboard."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I see what, like, St ?, and St 1 and St ?
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+are saying like she kind-, she, like, obviously she wanted to die with them.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I still feel like they could have tried to talk her out of it or do something like I know they're gonna burn the books anyway.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But a life isn't equal to a book.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like even if she wanted to die with them and they couldn't talk her out of it then, okay they can burn her or whatever.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I don't, I still think they could have put some effort into it.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like I know what you're saying, like, they're used to it but that doesn't mean you're just like, "Okay, die."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's not what that means.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I am of the idea where why couldn't they just go in and take the books out.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I mean instead of taking someone's life.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They could have just took the books, they were already drenched, they could've just took 'em back to the truck and burned them or something.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think happiness in our society is just different from everyone.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And in our, like, in the world you can do, like, whatever you want there's no, like, kind of restriction, well there's restrictions but to a certain point you can do what you want to be happy.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But in Fahrenheit 451 I think, like, most of the happiness is either between the parlor like brainwashing.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like the people to think that they're happy.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And, like, there's not real, like, happiness inside of that society.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So you're saying that finding happiness in Fahrenheit 451 is like the TV's and like their fake families basically.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And in real life it's like the things that we do and just our own family in general.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I, I concur with um St 9(?).
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because I think that the um that the version of happiness in Fahrenheit 451 is very shallow compared to ours.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because it seems like they get theirs off of like their TV's and stuff.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And to me, it just seems like, and take for example Montag's wife Mildred.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She just seem very, like very um she doesn't seem like she has much character to her, she just seems like she's there and nothing, there's nothing to her.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she, it seems like to me at some point they did have some sort of happiness, but they're just sort of forgetting about it now.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because of um because of all the new things that they're getting like these TV's and their cars.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And I would, I remember at some point in the book, Mildred was talking about how driving her car really fast makes her happy.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And um-
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+As, as I understand um the society in 451 I mean Fahrenheit 451 is simply just ignorance is bliss.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because on page 56 Beatty said, "People want to be happy isn't that right?"
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Um they just, they just simply um the more you know um some people like the sadder you get because you know the truth and you know how things really are.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, to them if you expand your mind and even if you're trying to find, like, good information you're going to run into bad.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because it's just, it's just, like, if you don't know about what's out there, then there's nothing to be sad about.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, it's just simply ignorance is bliss.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with what St ?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+is saying.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On page 46 when Montag is asking Millie about what she is watching.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she's like oh, "We have programs."
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+What programs?
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"Some of the best ever."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Who?
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"Oh, you know the bunch."
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It's like she wasn't even like paying attention she's just sort of sitting there blankly staring at it.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they clearly like happiness is clearly just sort of existing and not being able to worry about anything else and like occupying yourself with like the family and everything.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Um as I see it.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I just think that they just want enjoyment out of everything.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They're not  like truly happy with everything.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just want like more TV's and on page 18 it says, "It's really fun it would be even more fun if we can afford to have a 4th wall installed."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"How long do you figure before we can save up and get the 4th wall installed and the 4th wall TV put in?"
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"It's only $2000."
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they don't really care that much about education in their society.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just care about getting more things and just like having thrill with it just what they have right now they don't really want to [inaudible 001520]
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance St 12's statement, I feel like their society is more focused on happiness from materialistic things instead of like our society where we're more like we find happiness in experiences with like people.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like Mildred on, on page 42 it says, "The living room, what a good job of labeling what was known.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+No matter what he came in the walls were always talking Mildred."
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like, that's where she found her entertainment and happiness.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She was more focused on materialistic things and like enjoying time with her husband.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with everyone.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Saying that I believe we have all come to the conclusion that the theme is that this world, this world within the book is more hap-, happy with materialistic things and that our world we have to struggle and to know pain and stuff in order to be happy, and I think we should move on to another question.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I also think that Montag is sort of realizing this and he's realizing that nobody in his world is truly happy.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because on page 77 I think 77.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He says my wife is dying.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't think he means, like, she's actually dying.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think he means that she's, like, just like her soul is dying.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she's not herself.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She's becoming somebody that, like, somebody that she wasn't.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She would, the, she's not the person that he married.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He's starting to realize that since he's starting to gain knowledge from the books that he's reading and like he's getting angry.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He kind of figured out that happiness does not come from just staring at [xx] and materialistic things like St 1 said.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It's just like coming from nothing basically and he found out that basically she's dying because she's happy over basically nothing.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To advance on the point before your points um on page 97, well page 96 and 97 he reads that little like poetry thing and then on page 97 it says Mrs. Phelps was crying.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That kind of shows that they don't even know different emotions because they can't, they never experienced them.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she's probably, there could be a bunch of reasons she's crying like maybe it reminded her of something like subconsciously.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But they don't even know what kind of emotions they can feel.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they don't know that they can cry because of happiness if something's like beautiful or something.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They literally don't even know different emotions besides just like happiness constantly and just obvious happiness like watching TV just making you laugh just obvious stuff.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 8 like how when she said Montag said his wife was dying.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On a deeper level I don't think that he meant that his wife was actually dying.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But like their connection.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like it didn't feel like his wife no more.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, they just completely lost their feelings for each other like there was nothing there.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Going back to St ?
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+'s statement rereading this um part on page 97 you can see that Mil-, whatever Mildred said, said Mildred, "You're alright Clara now.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Clara snap out of it.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Clara what's wrong."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She can't even like realize that she's sad or she's happy she doesn't even know like what even emotion she is feeling, like, and why.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't believe uh I uh claim that happiness in the society isn't really happiness it's just more of being content with what you have until like getting more better things or a more amount of things because, like St ?
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+said, they're more materialistic.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I counterclaim that.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think um, like, happiness is literally just ignorance.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like they don't even, if you don't, if you don't find out something that you don't like how can you be mad?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It's literally a default emotion that they all feel.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't even think they feel actual happiness.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's just like you're not mad, you're not happy, you're not sad.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My, my position on Ms. Butler's question is that the person that uh proposed the question, I mean, yea proposed happiness into the story and made Guy Montag and the whole theme of happiness appear on page 7 when she uh Clarisse asks Guy Montag, "Are you happy?"
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She said.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"Am I what?"
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He cried.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But she was gone running in the moonlight her door front shut gently.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And then it continues to say he stopped laughing and then questions his happiness when he says, "Of course I'm happy what does she think, I'm not?"
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He asked a quiet room.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think this is what brought the whole question of what's true happiness into the story.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge St 1's statement.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I feel like they don't really know what happiness is to them.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And Clarisse saying that just confuses him.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because I feel like Clarisse knows a lot more than anyone else in the society and she knows what happiness is.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she knows what books are about and stuff like that she knows the truth.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well on page 79 it says, "The comfortable people want only wax moon faces, poreless, hairless, expressionless."
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, like, I just think they want to feel comfortable in society and, like, they don't know what happiness really is.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She knows too much.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I still don't even think she's dead.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I still don't think she's dead.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Whoever is controlling them, like, their government is kind of, like, hiding her away from the society because she knows too much.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I do think it was on purpose, because um oh, well I forget, I don't know what page it's on, but I remember at some point, Baby said that they um spec-, like, thought there were books in her house, but they never found them, like, a few times.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So they just decided to maybe take her out.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+No, I'm just saying.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Maybe the rest of their family would move and then they wouldn't be their problem anymore.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I want to advance St 8's statement because I feel like they don't want anyone in their society to know more than another person.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Uh I agree, and I'd like to [apply] my position on it.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On pages 44 and 45 it basically talks about um.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Guy Montag is curious he asks about the neighbor Clarisse.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+What about her?
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I meant to tell you but I forgot.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Oh never mind it's um Mildred is telling Montag about their neighbor Clarisse, and they're saying, "The whole family moved out somewhere, but she's gone for good.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think she's dead.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+We talking about the same girl?
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+No, the same girl McClellan run over by a car four days ago."
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's all talking about her disappearance in a way that it's saying, like, she disappeared and then the society obviously people aren't happy, and they're all obsessed with TV and materialistic things, so they don't care about the environment around them.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, I believe it's saying that Clarisse is gone, and nobody knows what happened to her.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They don't really care what happened to her.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But the point is that she's gone from the story.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge your point, but I think, I think it was yesterday it was either yesterday or Monday when we were in the little groups.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My group was kind of talking about like what if since Mildred's telling Montag what happened to her what if Mildred just saw something on TV and she's kind of, like, connecting reality and the TV show.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+What if somebody got hit by a car on TV and she's just, like, saying it was Clarisse because that's how she sees it.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And that's how she remembers it.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because literally she knows nothing about Clarisse.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why would she just randomly know that the whole family moved, and that um Clarisse got hit by a car.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, I just feel like she was watching TV and just connected reality with the TV.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because she already thinks she's a part of the family, so.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge your theory.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+However, I uh I wouldn't agree with it because there's no evidence to prove it necessarily.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And um I think the evidence you do have could go either way like it's circumstantial.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, I'm saying, It's circumstantial.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You said that you believe maybe she was watching TV and that she doesn't know Clarisse or whatever.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But I believe she could know Clarisse since it is her neighbor.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she's seen her walking out of the house or something.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+What am I, I'm basically saying is that your evidence is circumstantial.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, it could have happened but it could have not happened.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, I wouldn't necessarily agree.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And to advance Mildred doesn't really leave her house so.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She doesn't really leave her house.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I just don't understand why she would know that information.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like, she just randomly knows who she is.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's just like so random out of nowhere.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well uh my position on that is in a, in a society like this where they're not focused on everything that goes around them.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They do like to gossip on TV.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+This is also circumstantial.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In media that I've seen people tend, in ignorant societies they don't talk about what's important they talk about gossip they see on the news or on TV or what happens in the street or something.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A woman, like, getting run over by a car.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So that could be an explanation.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge what you are saying like it could go either way because I mean it never said how Mildred got that information.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I just still think that's, like, so random.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because you're just reading the book and then Mildred's like, "Oh she's dead."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like why would Mildred say that?
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why not anybody, I don't know.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's just so random to me.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I would like to advance that by saying that uh I don't have any potential evidence to support this.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But there is like how St 1 says it's, it's uh circumstantial like you don't know.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You also don't know she could have been going to one of her friend's house that came over to watch TV with her to watch TV with them.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I, I think that she made him um sort of wake up to the whole situation in their society.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In that um they don't really, they don't really have anything, that um, like, like, they don't really have that much interaction with each other anymore.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And they all just watch their TV's.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she sort of made him realize that that's kind of shallow.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with St 8.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+By saying I think Montag is, like, overcoming um Mildred.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+After reading all the books, he thinks that, like, he realizes that Mildred kind of like [inaudible 002935] society and just no more and she's not that active they're not talking.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He finds that he's getting, like, smarter and Mildred is not like there [inaudible 002948]
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I propose looking back at Ms. Butler's question.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In saying there when happiness was brought into the story page 78.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Clarisse asked Montag if he was happy in life and that made Montag wonder about his life.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, I think making Montag question his existence in this society is a pretty impactful thing.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So I believe that's the impact that Clarisse gave Montag.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+As I see it I do concur with what St 1 said.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because on page 21 it says after she gave a whole speech to him about questioning why loves everything.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He said, "He felt his body divide itself into a hotness and a coldness, softness and a hardness a trembling and a not trembling."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Basically she made him feel certain emotions that no one else has before because she's questioning everything and she was a lot different than anyone else.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+No one else cares about what your life is they're just living it.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge when you say that because I feel in that society nobody really asks questions.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They just kind of go on with their life and let things happen but Clarisse asking him all these questions about if he was happy.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Kind of impacted him in a way that nothing ever has.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So he [inaudible 003101] Like he was confused but eventually he thought about it more and started to understand what she meant.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with what St 2's saying.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like on page 57 when he's describing Clarisse after, like right before he mentions that she died.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He said, "She was a time bomb.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+The family had been feeding the subconscious I'm sure from what I saw of her school record.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She didn't want to know how a thing was done but why."
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She was, like, the only person the firemen were super interested in because of the questions she asked.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And when she met Montag she like took him out of that echo chamber that he was in.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she brought new ideas and, like, new ways of thinking.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Which is like how she brought up the talk of happiness.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur and I also, I also propose um that a little bit of Clarisse kind of rubbed off on Montag whenever she met him.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And that's why he, we, we're sort of seeing the changes that we are with him throughout the story.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I agree with St 8.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because I feel like now that he had that encounter with Clarisse he's starting to, like, act like her and start asking more questions.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Like he's not acting like the normal citizen in that society anymore since he met her.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My position is that he felt very eager.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think he was very eager too.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because it says I want to know on page 72.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"I want to know if there were any other copies left at all."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And he just wanted to more books and more copies .
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I propose, like, that Montag was very eager because there was one point in the book where he like bothers professor Faber because he wants to know more about the books and why they got rid of them.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So kind of bothers Faber until he like rips up a book a page by page because there was no other way for him to get Faber to help him to understand.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So it shows that he really did want to know about books.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My analysis of that question was that if you are a self serving person, then you only care about yourself, and you didn't necessarily worry about the people around you, so then you would kind of forget the needs of them.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That would be harmful to them 'cause they wouldn't have anybody that worried about them.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If everybody was self serving, then they would have no one to tailor to their needs, so they would generally become self serving, themselves.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then, if everybody is self serving, then the world is just corrupt.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I affirm Student 4's point on page 192, when Miller says, "He gets up, goes to her, kisses her.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She receives it with a certain disappointment and he returns to the table as when Proctor and Elizabeth were ... John and Elizabeth, were together, and he was still feeling some type a way about Abigail.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Since he was serving his self with the pleasure of Abigail, he didn't care about how his wife felt at the time he was feelings these feelings.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's appropriate for example, when the girls, they got caught in the woods, on page 175, I'm trying to remember who said it.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it might have been Abigail, but the quote said, "You did, you did.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You drank a charm to kill John Proctor's wife.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You drank a charm to kill Goody Proctor."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I took that as, someone's trying to not necessarily, try to get them in trouble, but they're telling the truth about a situation that happened, that could get them in trouble, or could possibly hurt them more than getting in trouble.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You know what I mean?
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that, specifically with the character of Harris, I affirm specifically with Student 4 and Student 9s point because being self serving, that can kind of come back to haunt you.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Because on page 81, 181, it was in the first act, I think.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Parris says, "I want a mark of confidence is all, I am your third creature in seven years.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I do not wish to be put out like a cat whenever some majority feels the way."
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+This was kind of the idea that they wouldn't allow to buy the house because that wasn't very common at the time.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It was one thing even to rent it, but to buy it, that's taking a piece of the count into his ownership.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then, on page 231, his fate kind of changes as his own niece robs him.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He says, "Thirty-one pounds is gone.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I am penniless."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He turns from this very much composed, cocky kind of guy to I'm barely scraping by with what I have, my own blood has turned against me.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I just think that, that really showcases the idea of maybe being self serving to an extreme is dangerous, but I think it is necessary in some aspect in order to protect your self and you well being
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Well, my interpretation of the question was more of the, protecting yourself at the expense of others.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I also talked about that in my answer to the question and I thought ... Well, my position is that, I think if you deem it necessary to protect yourself, so that you protect others.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think it's your right to do so, so I said, it can be deemed as self serving to others, but you think that, that's the appropriate thing to do.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then, I think it is necessary to do.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But then, that also ties in to the decision Proctor made, where he could have either chosen to save his name, help his family for someone else, serve yourself, but he chose not to.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I said in my response that he deemed it as necessary, you know.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He thought that it was the right thing to do.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I may not think that that was the right thing to do by serving for himself, he did risk the cost that his family would have to face for him being, getting consequence that he got, but I said that he saw it, the way that he saw it as just.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that's also a statement in which reveals more about Proctor's decision.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It's on page 200, he said, "And why not, if they must hang for the night.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+There are them devils who will do anything, before they'll hang."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I didn't ever thought of that and I think reveals a lot about Proctor's character and Everett discussing how he chose to hang before lying to himself.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think Miller wanted to incorporate this idea that Proctor basically lays down more outs for the reader to follow if they choose to or they can choose to disagree with him, then his last decision kind of reveals what their decision was right or wrong.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+All on page 240, Elizabeth even says, "He had his goodness now.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+God forbid I take it from him."
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that just proves my point for further, that he wanted to do it.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He thought it was the right thing to do.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Although, there is danger in that, I do think that it's sometimes appropriate if it's what you think is necessary
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge all of your points, and I add, my position that is also necessary to protect yourself at the expense of others.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+When you're not the only one who benefits from it, even though you are doing it at the expense of others.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On page 205, Mary Warren said, "She'll kill me for saying that.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Abby will charge lechery on you, Mr.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Proctor."
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She wouldn't confess to giving Elizabeth the doll 'cause it would harm her, and it would also harm Mr. Proctor 'cause Abby will then charge lechery on him, so she was protecting herself, and she was also protecting somebody else.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Point of clarification, please.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I propose that it is not ethical because if you are protecting yourself, then that ultimately falls under self serving.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Back, in their society, they had a Puritan society, so being self serving wasn't accepted, so if you didn't follow God, then it was frowned upon, I have a quote, hold on.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On page 198, Hale said, "In the book, a record that Mr. Parris keeps, I note that you are rarely in church on Sabbath day", so Hale was being self serving because he didn't necessarily agreed with what Paris was administering in his church, so he was going to church, and that was frowned upon.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In their society, it was unethical.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Does that answer your question?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with your idea with your idea of it being unethical because on page 226, it's not one, it's like a little string of dialogue, Mary Warren says that you're the devil's man.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Proctor just kind of says, Mary, how?
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He's very confused that she's suddenly now turning against him, and Mary Warren says, I will not hang with you.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I love God.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then, Danforth continued to ask her, did he bid you to do the devil's work.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then, she says, "He come at me by night and every day to sign", to sign, they're alluding to the devil's work."
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That kind of goes back to the idea that she was saving herself throughout this thing.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They literally just try to make it look like her spirit had come to the shape of a demonic and she was trying to lay evil upon the entire courthouse, especially to Abigail, who was the most dramatic throughout that.Mary Warren did that in order to save herself.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did that in order to save her reputation.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She did not want to die thinking with the whole town thinking that she left like that.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She didn't want to have that look on her name.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I would like to refute his statement.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you have, what my response was that if you have two distinct options, where there's no road between, you reduce the amount of people who can either fit.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+No one's got to be a perfect fit in each specific subgroup.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Now, what they would create is fractured societies and fracture the groups and congregations, where you won't have order.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you need order, even if you have leaders and rulers, they can get along with each other.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you don't have a society that's accepting of all people, you'll have people against people and you'll just have conflict and annihilation.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I refute everything St 17 just said because if you have no road in between, a society can thrive.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It thrives because there's less crime that happens, everybody knows what they're supposed to do and what they're not supposed to do.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you compare to the world today, we have a democracy.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't not agree with democracy, but if you think about, there's more crime, there's all kinds of stuff that's going on.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you compare them to now, they only did this because they had actual crime that was going on.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+But, was there evidence in the play that there was crime going on?
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+There may not have been evidence, but is there evidence today that some crimes happens and do not happen?
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My interpretation of it is that, without a middle ground, you are left with two very extreme points.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Whether or not the middle ground directly centered, we have a range.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+We have spectrum that we're able go off you.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Throughout history, whether you go back to ancient Europe, and you look at tyrannies and dictatorships, not even ancient Europe.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you go back to the Holocaust and what Hitler was doing over in Germany ...
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If you go back to Communism, as well ... Those are two extremes, and neither of them ended well, and just anarchy there.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+There is no order there, there is no civilized kind of society to base anything around.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think the middle ground is necessary just to create some kind of spectrum that we can go off of.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I acknowledge your point, but there wasn't nobody going against anything until this happened, 'til this event occurred.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Does that make the way they were living right though?
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+If they were happy, I believe they were perfectly fine.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My assessment of the topic at hand is, there's needs to be a balance between state rights and user rights.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+[inaudible 00:17:42] slide, and to what extent was it off balance.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with both St 9 and Ramon's statements.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I also think that if we have society in which people are afraid to go against the core, then the rights of them are restricted.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They're afraid that if they step outside the lines, then it won't end good for them, so everybody's afraid to be accepted or they're afraid that they won't be accepted.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with St 14 because back in the day when we had the Civil War going on, people were on different sides.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+People were afraid to come out and say, oh, I'm in between because then they would be afraid that they'd be treated just like African Americans.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+As St 9 said, it got to the point where they were on two different sides and they couldn't decide on something, so they said, hey, let's fight this out, and whoever wins basically decides what action happens.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I would propose that I see it that the middle ground comes from having individual freedoms, and as Arthur Miller stated in the introduction, when he gave a little description, some background.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He said, "But all organization is, and must be grounded on the idea of exclusion and prohibition, just at two objects cannot occupy the same space.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Evidently the time came in New England when the repressions were heavier and seemed warranted by the dangers against which the order was organized.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+The witch hunt was a perverse manifestation of the panic which set in among all classes.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+The balance began to turn toward a greater, individual freedom."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Now, you think the greater, individual causes the middle road, causes the path in between, defeats the statement that he said, that there's no road between, which is Danforth is arguing for it, and he's promoting that through course to introduce individual freedom.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Do you think that's the cause of [inaudible 00:19:49]?
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+A point of clarification.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Greater, individual freedom from my view point results in the middle road-
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Even though a certain character or a certain view in the play may be pushing for it, I don't think it's coming into play because even Danforth says to Proctor on page 226, "What you are combined with anti-Christ or are you not?
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I have a senior power, you will not deny it.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+What say you, mister?"
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then he goes on to say, "I will have nothing from you, Mr. [Malvin 00:20:34]", directed back to Proctor.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"Will you confess yourself [inaudible 00:20:37] to hell or do you keep that black, elite allegiancy yet?"
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+There's no option to say, I am not tied to hell, I don't have any association with this.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+This isn't true.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He's basically saying, are you going to say that you are or are you just going not say that you are?
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It's sort of like a lose, lose situation.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He can either confess a lie or he can not say anything, and be killed.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+like when Mary Warren, she goes on the stand.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Then, she comes back and she basically purgers herself, and she didn't have a choice whether or not, it's because we had crime.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I refute your point and the idea that Proctor didn't put himself into that situation Yes, he was very aggressive, and he was very much pushing Mary Warren into get up, and say, all right, you need to say that you lied because my now my wife is being accused of something that she didn't do.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+We already kind of had the idea that these girls were lying about, but now this is serious, you need to get up there and tell the court the truth.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't think that Proctor put himself in that situation, he just kind of got dragged into it after Mary then said, he told me this time, that on the devil's book, he comes to me every night and he says this.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't think that's his fault for getting into that situation.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He kind of got dragged into it through a bunch of lies.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that ties in well with our sixth question.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It says, does his play promote that idea that's okay to lie and cheat, as long as you can get away with it.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+From what you were saying, that how Mary Warren lied, came back to tell the truth, and then lied again.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She got away with it.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I see it that it does promote it, at the same it doesn't because at the end Proctor, who's the main protagonist of the book arguable.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He does the right thing, he could lie and get away with it, but then he couldn't at the same time.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+What do you guys think?
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think the play definitely promotes lying and cheating.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+First of all, we know that Elizabeth was cheating on ... that's one big thing, but if you also ...
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It says on page 193, "You were alone with her for a moment.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Alone, I.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Why then is it not as you told me?"
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He lied to Elizabeth, saying that he was never with Abigail, alone with her, but if you recall that them two were together, and she was trying to get back with him.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To me, it was more than a minute, just saying.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+My counter claim to that on page 231, this is a quote from Reverend Hale, "Now she sits with him and her sister and Martha Corey, and with two or three others, and he pleads with them, confess their crimes and save their lives."
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+By meaning, he, they mean Hale.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Hale was trying to break through to people, in order to get them to confess, whether or not they even believe it themselves.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that given this government was a theocracy, and that religious officials were at the highest point of power, the fact that a minister is telling you to lie completely proves that it is okay to lie and cheat, as long as you get away with it.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Someone of whom with they look at with such respect and such authority is telling you to lie I think that justifies it completely.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Morally, maybe not, but whenever you look at someone with the utmost power and they tell you to do something, you're going to do it.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+During this time, as sort of how we discussed yesterday, the Puritans came, they came over to the new world.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They broke away from the church, they had these set of laws that were very, very strict Whether or not you believed in God or not, this is just my view on it, I don't think that a person would necessarily break away from their church because they didn't believe in the scripture and the way that it was being taught.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I personally don't think that at the time, it was very common to be in an atheist or someone that was not of their specific religion, that came over, that started this new ... that sort of this new colony of people in the new world.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+In this setting, I just don't think that was very common.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I also agree with her point because if we go back to number one, one of the examples says there's no roads in between that is basically because no evidence of that whole, entire statement St 1 just had.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I concur with St 1 and St 9 about the play promoting the idea of lying and cheating cause on page 169, it described Abigail.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It said, "Abigail Williams, 17, enters a strikingly beautiful girl, an orphan, with an endless capacity for dissembling."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Right from the beginning, we know that she is known to lie and that leads us to believe that everything she says is a lie, however, she does get away with it and she doesn't receive any punishment, even after she steals to our knowledge, from what Miller wrote.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+By not showing that she was punished, shows that it was okay for her to lie 'cause we know that she was lying.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I would assume that he does promote lying and cheating and he did ... he literally, used facts.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I'm not sure.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+This play is historical fiction.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that we, if you are reading this play, you have no background of maybe, the allegory behind it.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On page 183, "In the countries of the Communist ideology, all resistance of any import is linked to the total malign capitalist succubi, and any America, any man who is not reactionary in his views is open to the charge of alliance with the red help", which is a reference to the red scare, I think.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I'm not too up on the time period was, but that's when Communism was very big scare in the US I think this play does promote lying and cheating, but I think it's based off of a true event.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+People were being accused here and there of being a Communist or being tied in with them, so they had to whatever they could to not charged and to not be put in jail for that.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It does promote that idea, but the idea is, it's based on a real event.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Do you get what I'm saying?
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah, I concur.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Let me just discuss the six, [inaudible 00:31:07] cheat, that also ties into five, where identify one message that Arthur Miller was trying to communicate, specifically about the human condition, and how humans should or do behave in relationship.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I found another message to be, was that people act selfishly and immorally when they're given the opportunity to do so.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Not always, but most than not.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I have a quote from Giles, he said on page 214, "If Jacob hangs for a witch, he forfeit up his property.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+That's law, and there's none but Putnam with a coin to buy so great a piece.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+This man is killing his neighbors for their land."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Arthur Miller throughout the play, he showed how people accused each other based on accusations, and they were given the opportunity to, they were believes just on their word.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Since they were given the chance to profit themselves, and you get two birds, one stone.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You profit yourself and you can take revenge or exert your feelings.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Do you think that Arthur Miller is right?
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I am going to respectfully disagree with your idea that people get the chance to be immoral when they can.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+On page 240, it's the last page of the play.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+"Supporting herself against collapse, grips the bars of the window, and with a cry."
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think this and then, well the quote is, "He had his goodness now, God forbid I take it from him."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+This is Elizabeth's husband.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Regardless of the fact that he cheated on her, she stayed with him.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She wanted to lie for him in court.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She wanted to help him, but she also wanted to make sure he kind of reached that idea of contentment within himself.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She wanted to make sure that he reached the idea of a self goodness kind of act.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't know that fits my argument.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She wanted to save him, she didn't want him to die, but she just let herself sit there.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She let him go out with honor because that's what he wanted to do.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He didn't want to have his name plastered as working with the devil all over the church.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He didn't want people in town to look at him like that, so kind of going to the idea that, even though I personally don't believe in this, if you love someone, you let them go.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+You let them do what's the best for them, and what they feel is going to make them happy.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't feel that all people act upon on their own selfish reasons.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Acknowledging your point, do you think she did that out of guilt because she didn't forgive him sooner?
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that's kind of a perspective thing.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I don't think that she did.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I really took to her character throughout the play.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I believe that she did that, so he could become content with himself.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+At the beginning of Act 2, the conversation was just very dry and between her and Proctor.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Elizabeth even says, "She frightened all my, I shrank away."
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+He says, "How may that mouse frighten you, Elizabeth.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+It is a mouse no more.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I forbid her go."
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+And she raises up her chin like the daughter of a prince and says to me, "I must go to Salem, Goody Proctor.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I am an official of the fort."
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She doesn't feel comfortable with someone who's living with her.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She already doesn't have a good view of him in Salem because of what happened with Proctor and Abigail.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She even feels that what's happening there, as far as the courts is corrupt, but she still stays with Proctor regardless, even though he cheated on her with a girl that was completely underage.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She stays with him I don't think that she necessarily did that for not forgiving him sooner.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I just think she did that because that's the type of person she is.
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Yeah.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I get what you're saying.
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I do not believe that because that's just kind of my view on her character.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think someone who has the view of that people, everyone in this play was very selfish and they were only doing things that they were going to reap the benefits from.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think she was probably the most selfless person in this play.
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+So, you don't believe that she was given the opportunity, she would not take it, to be self serving.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Depends, I think.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I personally don't, but I think the opinion can-
+[pool-1-thread-2] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think that would depend on who is involved, the party involved.
+[pool-1-thread-3] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+She loves Proctor and throughout the play, she mentions how she's guilty, she feels guilty because she keeps pressing on him, keeps making him feel [inaudible 00:37:18].
+[pool-1-thread-4] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Now, someone else say, Danforth, would the interaction be the same, where she, likely only has contempt or a bit of dissatisfaction, at the very least.
+[pool-1-thread-5] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+To further your question, Student 14, even though she was very humble, and she really did everything she could for her husband, on page 236, when Proctor was with men again, once he was in jail and she was in jail, too.
+[pool-1-thread-6] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+They had kind of a fight, she said, "I have read my heart three month drawn, I have said to my own account, it needs a cold wipe to lechery."
+[pool-1-thread-7] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+During this fight, she's kind of disputing with him over why he did that to her.
+[pool-1-thread-8] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+Even though, it's such a small act of self serving, she is defending herself through that.
+[pool-1-thread-1] INFO CoreNLP - [/127.0.0.1:36318] API call w/annotators tokenize,ssplit,pos,lemma,ner,parse,depparse
+I think if she did get the opportunity and she didn't have as much guilt as she did, I think she would take it.

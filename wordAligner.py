@@ -5,9 +5,25 @@ from alignerConfig import *
 from wordsim import *
 #from spacyUtil import *
 
+from functools import wraps
+from time import time
+from tqdm import tqdm
+
+def timing(f):
+    @wraps(f)
+    def wrapper(*args, **kwargs):
+        #print("\tEntered {}".format(f.__name__))
+        #start = time()
+        result = f(*args, **kwargs)
+        #end = time()
+        #print('\tElapsed time at {}: {}'.format(f.__name__,end-start))
+        return result
+    return wrapper
+
 
 class Aligner:
 
+    @timing
     def __init__(self, flag):
 
 
@@ -27,13 +43,18 @@ class Aligner:
 
         self.util = Util()
         self.word_similarity = WordSimilarity()
+        
+        self.fast = True
 
 
-
+    @timing
     def align_sentences(self,sentence1,sentence2,verbose = True):
-
+        
+        
         if(verbose):
             print("please wait system is aliging words")
+            print(sentence1)
+            print(sentence2)
         sentence1ParseResult = self.text_nor.parser(sentence1)
         sentence2ParseResult = self.text_nor.parser(sentence2)
 
@@ -83,6 +104,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignWords(self,sourceSent, targetSent, sourceParseResult, targetParseResult, sourceWords, targetWords):
 
 
@@ -225,6 +247,7 @@ class Aligner:
     '''
 
 
+    @timing
     def align_punctuations(self,sourceWords, targetWords, alignments, 
                 srcWordAlreadyAligned, tarWordAlreadyAligned, sourceSent, targetSent):
         
@@ -265,6 +288,7 @@ class Aligner:
     '''
 
 
+    @timing
     def align_commonNeighboringWords(self, sourceWords, targetWords, srcWordAlreadyAligned, 
                         tarWordAlreadyAligned, alignments):
 
@@ -311,6 +335,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignHyphenWords(self, wordIndices, Words, srcWordAlreadyAligned, alignments,
                             tarWordAlreadyAligned, flag):
 
@@ -369,6 +394,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignNamedEntities(self, sourceSent, targetSent, sourceParseResult, targetParseResult, 
                     existingAlignments, srcWordAlreadyAligned, tarWordAlreadyAligned):
         
@@ -502,6 +528,7 @@ class Aligner:
     '''
 
 
+    @timing
     def learn_NamedEntities(self,SentParam, LearnNE, knownNE):
 
         
@@ -561,6 +588,7 @@ class Aligner:
     '''
 
 
+    @timing
     def align_full_matches(self,sourceNE, targetNE):
 
         # Align all full matches
@@ -622,6 +650,7 @@ class Aligner:
     Returns: aligned verbs
     '''
 
+    @timing
     def alignMainVerbs(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
             tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                         srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -888,6 +917,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignNouns(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
             tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                         srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1094,6 +1124,7 @@ class Aligner:
     '''
 
 
+    @timing
     def findEquivalentParentChildRelation(self, i, j, sourceDepenency, targetDependency, Alignments, existingalignments,\
                                     srcPosTags, tarPosTags, srcLemmas,tarLemmas, AdjParentAndChildSrc, AdjParentAndChildTar,\
                                             OppDirecVerbParentAndChildSrc, OppDirecVerbParentAndChildTar, \
@@ -1144,6 +1175,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignAdjective(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
                 tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                             srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1332,6 +1364,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignAdverb(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
                 tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                             srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1484,6 +1517,7 @@ class Aligner:
     '''
     
 
+    @timing
     def findCommonRelation(self, i, j, sourceDepenency, targetDependency, Alignments, existingalignments,\
                                     srcPosTags, tarPosTags, srcLemmas,tarLemmas,
                                             evidenceCountMatrix, relativeAlignmentsMatrix):
@@ -1525,6 +1559,7 @@ class Aligner:
     '''
 
 
+    @timing
     def findCommonParentChildRelationAdverb(self, i, j, sourceDepenency, targetDependency, Alignments, existingalignments,\
                                     srcPosTags, tarPosTags, srcLemmas,tarLemmas, \
                                             group1OppDirectAdverbParentAndChildSrc, group1OppDirectAdverbParentAndChildTar, \
@@ -1572,6 +1607,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignTextualNeighborhoodContentWords(self, sourceSent, targetSent, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
                 tarLemmas,  srcPosTags, tarPosTags, existingalignments, 
                             srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1669,6 +1705,7 @@ class Aligner:
     '''
 
     
+    @timing
     def alignHyphenWordsUnigram(self, wordIndices, Words, source, srcWordAlreadyAligned, alignments,
                             tarWordAlreadyAligned, flag):
         
@@ -1728,6 +1765,7 @@ class Aligner:
     '''
 
 
+    @timing
     def alignDependencyNeighborhood(self, sourceSent, targetSent, srcWordIndices, tarWordIndices,\
                                 srcWords, tarWords, srcLemmas,\
                                 tarLemmas,  srcPosTags, tarPosTags, srcDParse, tarDParse, existingalignments, 
@@ -1850,6 +1888,7 @@ class Aligner:
     '''
 
 
+    @timing
     def  alignTextualNeighborhoodPuncStopWords(self, srcWordIndices, \
                                     tarWordIndices, srcWords, tarWords, srcLemmas,\
                                     tarLemmas,  srcPosTags, tarPosTags, existingalignments, 
@@ -1915,6 +1954,7 @@ class Aligner:
     '''
 
 
+    @timing
     def computeBestAlignment(self, numOfUnalignedWordsInSource, sourceWordIndicesBeingConsidered,\
                                 targetWordIndicesBeingConsidered, wordSimilarities, \
                                 NeighborhoodSimilarities, srcLemmas, existingalignments, srcWordAlreadyAligned,\
@@ -1922,32 +1962,55 @@ class Aligner:
 
 
         for i in range(numOfUnalignedWordsInSource):
-            
             highestWeightedSim = 0
             bestWordSim = 0
             bestSourceIndex = -1
             bestTargetIndex = -1
-
-            for i in sourceWordIndicesBeingConsidered:
-                if i in srcWordAlreadyAligned:
-                    continue
-                # print "i ", i
-                for j in targetWordIndicesBeingConsidered:
-                    if j in tarWordAlreadyAligned:
+            
+            if(self.fast):
+                if(len(sourceWordIndicesBeingConsidered) != len(targetWordIndicesBeingConsidered)):
+                    print("Assumption Failed: source list and target list not same size")
+                    raise SystemExit
+                for i in range(len(sourceWordIndicesBeingConsidered)):
+                    idxS = sourceWordIndicesBeingConsidered[i]
+                    idxT = targetWordIndicesBeingConsidered[i]
+                    if(idxS in srcWordAlreadyAligned):
                         continue
-                    # print "j ", j
-                    # align only that are     
-                    if (i,j) not in wordSimilarities:
+                    if(idxT in tarWordAlreadyAligned):
                         continue
-                    # print "in word similarity ", (i,j)
+                    if( (idxS, idxT) not in wordSimilarities):
+                        continue
+                    
                     theta2 = 1 - theta1
+                    if theta1*wordSimilarities[(idxS, idxT)] + theta2*NeighborhoodSimilarities[(idxS, idxT)] > highestWeightedSim:
+                        highestWeightedSim = theta1*wordSimilarities[(idxS, idxT)] + theta2*NeighborhoodSimilarities[(idxS, idxT)]
+                        bestSourceIndex = idxS
+                        bestTargetIndex = idxT
+                        bestWordSim = wordSimilarities[(idxS, idxT)]
+                        bestTextNeighborhoodSim = NeighborhoodSimilarities[(idxS, idxT)]
+                    
+            
+            else:
+                for i in sourceWordIndicesBeingConsidered:
+                    if i in srcWordAlreadyAligned:
+                        continue
+                    # print "i ", i
+                    for j in targetWordIndicesBeingConsidered:
+                        if j in tarWordAlreadyAligned:
+                            continue
+                        # print "j ", j
+                        # align only that are     
+                        if (i,j) not in wordSimilarities:
+                            continue
+                        # print "in word similarity ", (i,j)
+                        theta2 = 1 - theta1
 
-                    if theta1*wordSimilarities[(i, j)] + theta2*NeighborhoodSimilarities[(i, j)] > highestWeightedSim:
-                        highestWeightedSim = theta1*wordSimilarities[(i, j)] + theta2*NeighborhoodSimilarities[(i, j)]
-                        bestSourceIndex = i
-                        bestTargetIndex = j
-                        bestWordSim = wordSimilarities[(i, j)]
-                        bestTextNeighborhoodSim = NeighborhoodSimilarities[(i, j)]
+                        if theta1*wordSimilarities[(i, j)] + theta2*NeighborhoodSimilarities[(i, j)] > highestWeightedSim:
+                            highestWeightedSim = theta1*wordSimilarities[(i, j)] + theta2*NeighborhoodSimilarities[(i, j)]
+                            bestSourceIndex = i
+                            bestTargetIndex = j
+                            bestWordSim = wordSimilarities[(i, j)]
+                            bestTextNeighborhoodSim = NeighborhoodSimilarities[(i, j)]
             if flag:
                         
                 if bestWordSim>=ppdbSim and [bestSourceIndex, bestTargetIndex] not in existingalignments:
@@ -1964,10 +2027,10 @@ class Aligner:
                         existingalignments.append([bestSourceIndex, bestTargetIndex])
                         srcWordAlreadyAligned.append(bestSourceIndex)
                         tarWordAlreadyAligned.append(bestTargetIndex)
-
             if bestSourceIndex in sourceWordIndicesBeingConsidered:
                 sourceWordIndicesBeingConsidered.remove(bestSourceIndex)
             if bestTargetIndex in targetWordIndicesBeingConsidered:
                 targetWordIndicesBeingConsidered.remove(bestTargetIndex)
+
 
         return existingalignments, srcWordAlreadyAligned, tarWordAlreadyAligned

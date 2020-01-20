@@ -82,6 +82,8 @@ class Text_processing:
         #the process does a sent_tokenize for the text and then passes each sentence into the stanford Parse
         
         sentences = sent_tokenize(sentence)
+        print(len(sentences))
+        print(getSize())
         for sent in sentences:
             if(not isPresent(sent)):
                 toBuffer = self.fullModule.api_call(sent,  properties = self.customProperties)

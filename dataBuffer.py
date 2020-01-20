@@ -8,22 +8,32 @@ maxEntries = 0 #total to store in store
 store = {}
 currEntry = 0 #track of ids 
 
-def setSize(size = 6):
+def setSize(size = 50):
     global maxEntries
     maxEntries = size
 
+def getSize():
+    return len(store.keys())
+    
+
 def isPresent(key):
-    return key in store.keys()
+    global currEntry
+    if(key in store.keys()):
+        currEntry += 1
+        store[key]['id'] = currEntry
+        return True
+    return False
 
 #assume the data is from stanford
 def bufferData(key, value):
     global store, maxEntries, currEntry
     if(key in store.keys()):
         #data already buffered
+
         return
     #check if we are full
     keyList = list(store.keys())
-    if(len(keyList) != 0 and len(keyList) == maxEntries):
+    if(len(keyList) != 0 and len(keyList) >= maxEntries):
         #evict the oldest entry
         #initialize with the first entry
         minKey = keyList[0]
@@ -42,7 +52,7 @@ def bufferData(key, value):
     currEntry = currEntry + 1 
     
     #Extract the desired data from value
-    store[key]['full'] = value
+    #store[key]['full'] = value
     
     #grabbing the parse
     store[key]['parse'] = value['sentences'][0]['parse']
@@ -106,6 +116,6 @@ def dumpStore():
     import json
     print(json.dumps(store, indent = 2, default = lambda x: repr(x)))
     
-            
+setSize()            
     
 
