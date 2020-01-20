@@ -13,6 +13,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from alignerConfig import *
 
+from dataBuffer import *
+
 import requests
 
 class Text_processing:
@@ -23,6 +25,11 @@ class Text_processing:
         # user need to download Stanford Parser, NER and POS tagger from stanford website
         #parserJar = "/home/rav/Development/Semantic-Textual-Similarity/monolingualWordAligner/stanfordModels/stanford-parser-full-2017-06-09/stanford-parser.jar"
         #parserModel = "/home/rav/Development/Semantic-Textual-Similarity/monolingualWordAligner/stanfordModels/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models.jar"
+        
+        self.fullModule = CoreNLPParser(url='http://localhost:9000')
+        self.customProperties = {'annotators': 'tokenize,ssplit,pos,lemma,ner,parse,depparse'}
+        
+        
         
         self.constituent_parse_tree = CoreNLPParser(url='http://localhost:9000')
 
@@ -69,7 +76,20 @@ class Text_processing:
 
 
         self.parseResult = {'parseTree':[], 'text':[], 'dependencies':[],'words':[] }
-        parseText, sentences = self.get_parseText(sentence)
+        
+        #this is Rav hijacking the process and precomputing a lot of info and the sending it to a buffer
+        
+        #the process does a sent_tokenize for the text and then passes each sentence into the stanford Parse
+        
+        sentences = sent_tokenize(sentence)
+        for sent in sentences:
+            if(not isPresent(sent)):
+                toBuffer = self.fullModule.api_call(sent,  properties = self.customProperties)
+                bufferData(sent, toBuffer)
+
+        
+        
+        parseText = self.get_parseText(sentence, sentences)
         # print "sentences ", sentences
         # if source/target sent consist of 1 sentence 
         if len(sentences) == 1:
@@ -284,7 +304,7 @@ class Text_processing:
 
 
     '''
-    Input: sentence
+    Input: one or more sentences in a string
     Returns: parse(    {ParseTree, text, Dependencies, 
       'word : [] NamedEntityTag, CharacterOffsetEnd, 
               CharacterOffsetBegin, PartOfSpeech, Lemma}']}) 
@@ -292,11 +312,10 @@ class Text_processing:
     '''
 
 
-    def get_parseText(self,sentence):
+    def get_parseText(self,sentence, tokenized_sentence):
 
         self.count = 0
         self.length_of_sentence = [] # stores length of each sentence
-        tokenized_sentence = sent_tokenize(sentence)
         # print "len of tokenized ",len(tokenized_sentence)
         if (len(tokenized_sentence) == 1):
             self.count += 1
@@ -311,24 +330,30 @@ class Text_processing:
                 self.length_of_sentence.append(s)
                 tmp = s
 
-        return parse,tokenized_sentence
+        return parse
         
 
     '''
-    Input: sentences
+    Input: sentence
     Return: constituency tree that represents relations between sub-phrases in sentences
     '''
 
 
     def get_constituency_Tree(self,sentence):
-        
+        '''
         sentence = sent_tokenize(sentence)
         constituency_parser = self.constituent_parse_tree.raw_parse_sents(sentence)
+        #]
+        
+        #this seems to be converting a tree object into a string
         for parser in constituency_parser:
             for sent in parser:
                 tree = str(sent)
         parse_string = ' '.join(str(tree).split()) 
         
+        print(parse_string)
+        '''
+        parse_string = getData(sentence, "parse") 
         return parse_string
 
 
@@ -340,26 +365,22 @@ class Text_processing:
 
     def get_dependencies(self,sentence):
 
-
         dependency_tree = []
-        dependency_parser = self.stanford_dependency.raw_parse(sentence)
-        #token = word_tokenize(sentence)
-        token = list(self.constituent_parse_tree.tokenize(sentence))
-        parsetree = list(self.stanford_dependency.raw_parse(sentence))[0]
+        depGraph = getData(sentence, 'dependency_graph')
+        token = getData(sentence, "tokenized_words")
+
         # Find root(head) of the sentence 
-        for k in parsetree.nodes.values():
+        for k in depGraph.nodes.values():
             if k["head"] == 0:
-        
                 dependency_tree.append([str(k["rel"]), "Root-" + str(k["head"]), str(k["word"]) 
                     + "-" + str(k["address"]) ])            
         # Find relation between words in sentence
-        for dep in dependency_parser:
-            for triple in dep.triples():
-                index_word = token.index(triple[0][0]) + 1 # because index starts from 0 
-                index2_word = token.index(triple[2][0]) + 1
-                dependency_tree.append([str(triple[1]),str(triple[0][0]) + "-" + str(index_word),\
+        for triple in depGraph.triples():
+            index_word = token.index(triple[0][0]) + 1 # because index starts from 0 
+            index2_word = token.index(triple[2][0]) + 1
+            dependency_tree.append([str(triple[1]),str(triple[0][0]) + "-" + str(index_word),\
                              str(triple[2][0]) + "-" + str(index2_word)])
-
+        
         return dependency_tree
 
 
@@ -393,9 +414,10 @@ class Text_processing:
         words_in_each_sentence = []
         words_list = [] 
         #tokenized_words = word_tokenize(sentence)
-        tokenized_words = list(self.constituent_parse_tree.tokenize(sentence))
-        posTag = self.pos_tag.tag(tokenized_words)
-        ner = self.ner.tag(tokenized_words)
+        tokenized_words = getData(sentence, "tokenized_words")#list(self.constituent_parse_tree.tokenize(sentence))
+        posTag = getData(sentence, "pos")#self.pos_tag.tag(tokenized_words)
+        ner =  getData(sentence, "ner")#self.ner.tag(tokenized_words)
+        
         
         # if source sentence/target sentence has one sentence
         if (self.count == 1):
