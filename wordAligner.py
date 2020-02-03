@@ -9,21 +9,11 @@ from functools import wraps
 from time import time
 from tqdm import tqdm
 
-def timing(f):
-    @wraps(f)
-    def wrapper(*args, **kwargs):
-        #print("\tEntered {}".format(f.__name__))
-        #start = time()
-        result = f(*args, **kwargs)
-        #end = time()
-        #print('\tElapsed time at {}: {}'.format(f.__name__,end-start))
-        return result
-    return wrapper
-
+import shelve
 
 class Aligner:
 
-    @timing
+    
     def __init__(self, flag):
 
 
@@ -45,10 +35,16 @@ class Aligner:
         self.word_similarity = WordSimilarity()
         
         self.fast = True
+        self.shelf = shelve.open("Resources/alignmentShelf", writeback=True)
 
 
-    @timing
+    def close(self):
+        self.shelf.close()
     def align_sentences(self,sentence1,sentence2,verbose = True):
+        
+        #do a check to see the sentences have already been aligned
+        if(sentence1+sentence2 in self.shelf):
+            return self.shelf[sentence1+sentence2]
         
         
         if(verbose):
@@ -82,6 +78,7 @@ class Aligner:
         if(verbose):
             print("aligned words ", align)
 
+        self.shelf[sentence1+sentence2] = align
         return align
 
 
@@ -104,7 +101,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignWords(self,sourceSent, targetSent, sourceParseResult, targetParseResult, sourceWords, targetWords):
 
 
@@ -247,7 +244,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def align_punctuations(self,sourceWords, targetWords, alignments, 
                 srcWordAlreadyAligned, tarWordAlreadyAligned, sourceSent, targetSent):
         
@@ -288,7 +285,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def align_commonNeighboringWords(self, sourceWords, targetWords, srcWordAlreadyAligned, 
                         tarWordAlreadyAligned, alignments):
 
@@ -335,7 +332,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignHyphenWords(self, wordIndices, Words, srcWordAlreadyAligned, alignments,
                             tarWordAlreadyAligned, flag):
 
@@ -394,7 +391,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignNamedEntities(self, sourceSent, targetSent, sourceParseResult, targetParseResult, 
                     existingAlignments, srcWordAlreadyAligned, tarWordAlreadyAligned):
         
@@ -528,7 +525,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def learn_NamedEntities(self,SentParam, LearnNE, knownNE):
 
         
@@ -588,7 +585,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def align_full_matches(self,sourceNE, targetNE):
 
         # Align all full matches
@@ -650,7 +647,7 @@ class Aligner:
     Returns: aligned verbs
     '''
 
-    @timing
+    
     def alignMainVerbs(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
             tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                         srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -917,7 +914,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignNouns(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
             tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                         srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1124,7 +1121,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def findEquivalentParentChildRelation(self, i, j, sourceDepenency, targetDependency, Alignments, existingalignments,\
                                     srcPosTags, tarPosTags, srcLemmas,tarLemmas, AdjParentAndChildSrc, AdjParentAndChildTar,\
                                             OppDirecVerbParentAndChildSrc, OppDirecVerbParentAndChildTar, \
@@ -1175,7 +1172,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignAdjective(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
                 tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                             srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1364,7 +1361,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignAdverb(self, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
                 tarLemmas,  srcPosTags, tarPosTags, sourceDependencyParse,targetDependencyParse, existingalignments, 
                             srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1517,7 +1514,7 @@ class Aligner:
     '''
     
 
-    @timing
+    
     def findCommonRelation(self, i, j, sourceDepenency, targetDependency, Alignments, existingalignments,\
                                     srcPosTags, tarPosTags, srcLemmas,tarLemmas,
                                             evidenceCountMatrix, relativeAlignmentsMatrix):
@@ -1559,7 +1556,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def findCommonParentChildRelationAdverb(self, i, j, sourceDepenency, targetDependency, Alignments, existingalignments,\
                                     srcPosTags, tarPosTags, srcLemmas,tarLemmas, \
                                             group1OppDirectAdverbParentAndChildSrc, group1OppDirectAdverbParentAndChildTar, \
@@ -1607,7 +1604,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignTextualNeighborhoodContentWords(self, sourceSent, targetSent, srcWordIndices, tarWordIndices, srcWords, tarWords, srcLemmas,\
                 tarLemmas,  srcPosTags, tarPosTags, existingalignments, 
                             srcWordAlreadyAligned, tarWordAlreadyAligned):
@@ -1705,7 +1702,7 @@ class Aligner:
     '''
 
     
-    @timing
+    
     def alignHyphenWordsUnigram(self, wordIndices, Words, source, srcWordAlreadyAligned, alignments,
                             tarWordAlreadyAligned, flag):
         
@@ -1765,7 +1762,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def alignDependencyNeighborhood(self, sourceSent, targetSent, srcWordIndices, tarWordIndices,\
                                 srcWords, tarWords, srcLemmas,\
                                 tarLemmas,  srcPosTags, tarPosTags, srcDParse, tarDParse, existingalignments, 
@@ -1888,7 +1885,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def  alignTextualNeighborhoodPuncStopWords(self, srcWordIndices, \
                                     tarWordIndices, srcWords, tarWords, srcLemmas,\
                                     tarLemmas,  srcPosTags, tarPosTags, existingalignments, 
@@ -1954,7 +1951,7 @@ class Aligner:
     '''
 
 
-    @timing
+    
     def computeBestAlignment(self, numOfUnalignedWordsInSource, sourceWordIndicesBeingConsidered,\
                                 targetWordIndicesBeingConsidered, wordSimilarities, \
                                 NeighborhoodSimilarities, srcLemmas, existingalignments, srcWordAlreadyAligned,\

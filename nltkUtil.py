@@ -66,6 +66,20 @@ class Text_processing:
             print("The server doesn't seem to be running, make sure you start it")
             raise SystemExit
 
+    
+    
+    def stanfordApiCall(self, sentence):
+        '''
+        Try to do an api call 3 times straight before failing
+        '''
+        for i in range(3):
+            try:
+                return self.fullModule.api_call(sentence,  properties = self.customProperties, timeout = 300)
+            except:
+                pass
+        
+        print("Something is causing the api call to fail, probably a timeout")
+        raise SystemExit
     '''
     Input: sentence
     Returns: 
@@ -82,11 +96,11 @@ class Text_processing:
         #the process does a sent_tokenize for the text and then passes each sentence into the stanford Parse
         
         sentences = sent_tokenize(sentence)
-        print(len(sentences))
-        print(getSize())
+        #print(len(sentences))
+        #print(getSize())
         for sent in sentences:
             if(not isPresent(sent)):
-                toBuffer = self.fullModule.api_call(sent,  properties = self.customProperties)
+                toBuffer = self.stanfordApiCall(sent)
                 bufferData(sent, toBuffer)
 
         
